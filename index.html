@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <title>Mashgulot</title>
+</head>
+
+<body>
+    <div class="section">
+        <div class="container section__container">
+            <h2>Trigonometrik Masalalarni Hisoblash</h2>
+            <p>Misollar:</p>
+            <div class="task">
+                <p>1. sin(45° + 30°) = ?</p>
+                <button class="accept" onclick="solveSinSum()">Hisoblash</button>
+                <p id="result1"></p>
+            </div>
+
+            <div class="task">
+                <p>2. cos(60° × 2) = ?</p>
+                <button class="accept" onclick="solveCosDouble()">Hisoblash</button>
+                <p id="result2"></p>
+            </div>
+
+            <div class="task">
+                <p>3. sin(2 × 30°) = ?</p>
+                <button class="accept" onclick="solveSinDouble()">Hisoblash</button>
+                <p id="result3"></p>
+            </div>
+
+            <div class="task">
+                <p>4. sin(60° + 45°) = ?</p>
+                <button class="accept" onclick="solveSinAdd()">Hisoblash</button>
+                <p id="result4"></p>
+            </div>
+
+            <div class="task">
+                <p>5. cos(90° - 30°) = ?</p>
+                <button class="accept" onclick="solveCosDiff()">Hisoblash</button>
+                <p id="result5"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
